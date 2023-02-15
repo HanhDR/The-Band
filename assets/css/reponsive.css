@@ -1,0 +1,65 @@
+/* pc */
+@media (min-width: 64em) {
+    #header .icon-mobie {
+        display: None;
+    }
+}
+/* table */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header .icon-mobie {
+        display: None;
+    }
+}
+
+
+/* Mobie */
+@media (max-width: 46.1875em) {
+    .s-full-send,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #nav > li{
+        display: block;
+    }
+   #header {
+    overflow: hidden;
+   }
+    #header .search-buton {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .nav2 {
+       
+        background-color:#000;
+         width: 100%;
+    }
+    #nav .nav2 a{
+       color: #fff;
+       padding: 1px 30px;
+
+    }
+    #content .member-anh {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    #nav .nav2 {
+        position: initial;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+    .but {
+        text-align: center;
+    }
+}
